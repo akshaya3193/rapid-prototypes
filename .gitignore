@@ -1,0 +1,10 @@
+# Python ignores
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Package build folders
+build/
+dist/
+*.egg-info/
