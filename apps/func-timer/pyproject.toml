@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "func-timer"
+version = "0.1.0"
+dependencies = []
+description = "Easily track, measure, and log execution time and memory usage of your Python functions."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Akshaya Krishnaswamy", email = "akshaya3193@gmail.com" }
+]
+keywords = ["execution", "performance", "memory"]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/akshaya3193/rapid-prototypes/tree/main/apps/func-timer"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
